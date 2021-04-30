@@ -1,0 +1,117 @@
+*{
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+.caja1{
+  display: flex;
+  justify-content: center;
+  background-color: #cc0228;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+}
+.menu{
+  font-size: 20px;
+}
+.ela{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 50px;
+  background-color: #e2e2e2;
+}
+.caja2{
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #f8d8c0;
+  width: 100%;
+  height: 4rem;
+}
+.caja3{
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #b478a6;
+  width: 100%;
+  height: 4rem;
+}
+.caja4{
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #6b70ab;
+  width: 100%;
+  height: 4rem;
+}
+.caja5{
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #5793a5;
+  width: 100%;
+  height: 4rem;
+}
+.coleccionesropa{
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 2px 2px hotpink;
+}
+.boton{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-left: 60px;
+  padding-right: 70px;
+  font-weight: 600px;
+  font-size: 50px;
+  color: white;
+  background-color: #ffada9;
+  border-radius: 6px;
+}
+.boton1 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-left: 150px;
+  padding-right: 130px;
+  font-weight: 600px;
+  font-size: 50px;
+  color: white;
+  background-color: #ffada9;
+  border-radius: 6px;
+}
+@media  screen and (max-width: 60rem){
+  .boton{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+    .boton1{
+      display: flex;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 10px;
+      padding-left: 25px;
+      padding-right: 30px;
+  }
+}
+.final{
+  display: flex;
+  justify-content: center;
+}
+h5{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.letra{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
